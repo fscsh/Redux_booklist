@@ -1,8 +1,8 @@
-export default function(){
+export default function(state, action){
     return [
-        {title: 'Shuhao'},
-        {title: 'Chen'},
-        {title: 'Michael'},
-        {title: 'Chen'},
+        {title: 'React' , pages:'1'},
+        {title: 'Js' , pages:'10'},
+        {title: 'Java', pages: '100'},
+        {title: 'HTML AND CSS',pages:'1000'},
     ]
 }
